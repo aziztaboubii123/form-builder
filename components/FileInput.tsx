@@ -35,7 +35,7 @@ export function FileInput({ file, onChange, error }: Props) {
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={preview}
-            alt="Aperçu"
+            alt="Aperçu de la photo de profil sélectionnée"
             className="size-16 shrink-0 rounded-full object-cover ring-2 ring-white"
           />
         ) : (
